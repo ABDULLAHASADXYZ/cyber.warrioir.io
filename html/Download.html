@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah.Net</title>
+    <style>
+          * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+            
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+            overflow: hidden;
+        }
+        video {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 50px;
+            color: #fff;
+        }
+        .content h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 1.5em;
+        }
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+            }
+            .content h1 {
+                font-size: 2em;
+            }
+            .content p {
+                font-size: 1.2em;
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #0F0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 36px;
+        }
+        .content {
+            text-align: center;
+            margin-top: 60px;
+        }
+        .content p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .download-btn {
+            background-color: rgba(251, 255, 39, 0);
+            color: #ffb30e;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: rgb(103, 116, 103);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #1e1f1baf;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="QE.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="content">
+                <header>
+                    <h1>Connect To Abdullah.net...</h1>
+                </header>
+                <div class="content">
+                    <p>your ultimate hacking destination!</p>
+            
+            <a href="soon.txt" class="download-btn">Tool V1</a>    
+            <a href="soon.txt" class="download-btn">Tool V1</a>
+        </div>
+        </div>
+    <footer>
+        <p>&copy; 2024 Cyber Forensic. All rights reserved.</p>
+    </footer>
+</body>
+</html>
