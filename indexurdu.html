@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdullah.net</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+    crossorigin="anonymous"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+<script>
+  AOS.init();
+</script>
+
+</head>
+<body>
+
+
+
+<div id="preloader"></div>
+
+
+<script>
+  window.addEventListener('load', () => {
+    document.getElementById('preloader').style.display = 'none';
+  });
+</script>
+
+
+    
+<button onclick="topFunction()" id="backToTop" title="Go to top">↑</button>
+
+<script>
+  let mybutton = document.getElementById("backToTop");
+
+  window.onscroll = function () {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  };
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+
+
+
+<div id="vaultAlert" class="alert alert-success text-center fixed-bottom m-0" role="alert">
+  🔐 نیا ٹول والٹ میں شامل کیا گیا ہے! <a href="https://wowowowowowow.netlify.app/" class="alert-link">ابھی چیک کریں</a>
+</div>
+
+<script>
+  setTimeout(function () {
+    const alertBox = document.getElementById('vaultAlert');
+    if (alertBox) {
+      alertBox.classList.add('fade-out');
+      setTimeout(() => alertBox.style.display = 'none', 1000);
+    }
+  }, 5000);
+</script>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="Instagram" class="brand-logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav text-center">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img src="images/home.jpeg" alt="ہوم" class="social-logo">
+          </a>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#downloads">
+            <img src="images/downloads.jpeg" alt="ڈاؤن لوڈز" class="social-logo">
+          </a>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://wowowowowowow.netlify.app/">
+            <img src="images/lock.jpeg" alt="والٹ" class="social-logo">
+          </a>
+        </li>
+
+      <li class="nav-item">
+          <a class="nav-link" href="https://mehfil-e-sur.netlify.app/">
+            <img src="images/Music.png" alt="HOME" class="social-logo">
+          </a>
+
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="#info">
+            <img src="images/About.jpeg" alt="ہمارے بارے میں" class="social-logo">
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://wa.me/+923353393213">
+            <img src="images/whats.jpeg" alt="واٹس ایپ" class="social-logo">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/abdullah.net.io">
+            <img src="images/insta.jpeg" alt="انسٹاگرام" class="social-logo">
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<br>
+
+<video autoplay muted loop>
+  <source src="images/video_interface.mp4" type="video/mp4">
+  آپ کا براؤزر ویڈیو ٹیگ کو سپورٹ نہیں کرتا۔
+</video>
+
+
+
+<div class="language-buttons">
+  <a href="index.html" class="lang-btn en-btn">English</a>
+  <a href="indexurdu.html" class="lang-btn ur-btn">اردو</a>
+</div>
+
+
+<div id="downloads" class="container mt-4">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <a href="https://wowowowowowow.netlify.app/" class="card-link">
+        <div class="card">
+          <img src="images/Allin.png" class="card-img-top" alt="All-In-One">
+          <div class="card-body">
+            <h5 class="card-title">آل اِن ون</h5>
+            <p>ڈسکلیمر: درج ذیل ٹول اور ہدایات صرف تعلیمی مقاصد کے لیے فراہم کی گئی ہیں۔ میں، مصنف، اس کے کسی بھی غلط استعمال یا نقصان کا ذمہ دار نہیں ہوں۔ آپ اسے استعمال کرتے ہوئے مکمل ذمہ داری قبول کرتے ہیں۔ براہ کرم صرف قانونی اور اخلاقی مقاصد کے لیے استعمال کریں۔</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-md-4">
+      <a href="https://wowowowowowow.netlify.app/" class="card-link">
+        <div class="card">
+          <img src="images/xbrute.png" class="card-img-top" alt="XBRUTE">
+          <div class="card-body">
+            <h5 class="card-title">ایکس بروٹ</h5>
+            <p>XBRUTE صرف تعلیمی مقاصد کے لیے ہے۔ میں کسی تیسرے فریق کے استعمال کا ذمہ دار نہیں ہوں۔ غیر قانونی سرگرمیاں سختی سے ممنوع ہیں۔ تمام صارفین کو متعلقہ قوانین اور پالیسیز کی پابندی کرنی چاہیے۔</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-md-4">
+      <a href="https://wowowowowowow.netlify.app/" class="card-link">
+        <div class="card">
+          <img src="images/xhider.png" class="card-img-top" alt="XHIDE">
+          <div class="card-body">
+            <h5 class="card-title">ایکس ہائیڈ</h5>
+            <p>ڈسکلیمر: یہ ٹول صرف تعلیمی مقاصد کے لیے ہے۔ کسی بھی نقصان یا غلط استعمال کی صورت میں مصنف ذمہ دار نہیں ہوگا۔ استعمال سے پہلے مکمل ذمہ داری قبول کریں۔</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<hr>
+<div id="info" class="info">
+  <a href="https://wa.me/+923353393213?text=I%20Want%20To%20Buy%20Ethical,course">
+    <h1>ایتھیکل ہیکنگ کورس</h1>
+    <p>ابتداء سے ایتھیکل ہیکنگ سیکھیں! یہ کورس ان افراد کے لیے ہے جن کے پاس کوئی سابقہ تجربہ نہیں۔
+      <br><b>2,999 PKR – لائیو کلاسز کے ساتھ</b>
+      <br><b>1,999 PKR – بغیر لائیو کلاسز</b>
+      <br>
+      خصوصی رعایت: 16 سال یا اس سے زائد عمر کے طلباء کے لیے <b>49% ڈسکاؤنٹ</b>!
+      <br>
+      کورس میں عملی تربیت اور حقیقی مثالیں شامل ہیں۔ انسٹاگرام اور واٹس ایپ کے لنکس اس ویب سائٹ پر موجود ہیں۔
+    </p>
+  </a>
+</div>
+
+<div class="video-card">
+  <h1>کورس کا جائزہ</h1>
+  <br>
+  <video controls>
+    <source src="videos/course_details.mp4" type="video/mp4">
+    ABDULLAH.NET
+  </video>
+</div>
+
+<hr>
+
+<section class="section text-light">
+  <div class="container">
+    <h3 class="text-center mb-4">📚 کورس سلیبس</h3>
+    <ul class="list-group bg-transparent">
+      <li class="list-group-item bg-dark text-white">✅ ماڈیول 1: سیٹ اپ اور تعارف</li>
+      <li class="list-group-item bg-dark text-white">✅ ماڈیول 2: سوشل میڈیا ہیکنگ</li>
+      <li class="list-group-item bg-dark text-white">✅ ماڈیول 3: سوشل میڈیا ایڈوانس ہیکنگ</li>
+      <li class="list-group-item bg-dark text-white">✅ ماڈیول 4: سوشل میڈیا بروٹ اٹیکس</li>
+      <li class="list-group-item bg-dark text-white">✅ ماڈیول 5: ٹولز کا استعمال + خفیہ والٹ رسائی</li>
+    </ul>
+  </div>
+</section>
+
+<br>
+<div class="container text-white">
+  <h4>کورس کی کوریج</h4>
+  <br>
+  <div class="progress mb-2">
+    <div class="progress-bar bg-success" style="width: 90%;">
+      سوشل میڈیا ہیکنگ
+    </div>
+  </div>
+  <div class="progress mb-2">
+    <div class="progress-bar bg-info text-dark" style="width: 85%;">
+      سسٹم ہیکنگ
+    </div>
+  </div>
+  <div class="progress mb-2">
+    <div class="progress-bar bg-danger" style="width: 80%;">
+      نیٹ ورک میپنگ
+    </div>
+  </div>
+  <div class="progress mb-2">
+    <div class="progress-bar bg-warning" style="width: 95%;">
+      ٹولز + والٹ رسائی
+    </div>
+  </div>
+</div>
+
+<br>
+<section class="section text-light">
+  <div class="container">
+    <h4 class="text-center mb-4">جلد آ رہا ہے</h4>
+    <ul class="list-group bg-transparent">
+      <li class="list-group-item bg-danger text-dark">ڈارک ویب ماڈیول</li>
+      <li class="list-group-item bg-danger text-dark">لائیو بگ باؤنٹی ٹریننگ</li>
+      <li class="list-group-item bg-danger text-dark">پرائیویٹ ڈسکارڈ سرور رسائی</li>
+    </ul>
+  </div>
+</section>
+
+<br>
+<div class="text-center my-4">
+  <a href="https://wa.me/+923353393213?text=I%20Want%20To%20Buy%20Ethical,course" class="buy-btn">کورس خریدیں</a>
+</div>
+
+
+<meta name="description" content="ویڈیوز، ٹولز، اور خفیہ والٹ رسائی کے ساتھ ایتھیکل ہیکنگ سیکھیں۔ مکمل روڈمیپ۔">
+<meta property="og:title" content="ایتھیکل ہیکنگ کورس والٹ">
+<meta property="og:description" content="ایتھیکل ہیکنگ کے پریمیئم ٹولز، ویڈیوز اور ٹیوٹوریلز تک رسائی۔">
+<meta property="og:image" content="https://yourdomain.com/banner.jpg">
+<meta name="keywords" content="ایتھیکل ہیکنگ، سائبر سیکیورٹی، بگ باؤنٹی، ہیکنگ ٹولز، ہیکنگ سیکھیں">
+<meta name="author" content="عبداللہ">
+
+
+<div class="accordion my-4" id="faqAccordion">
+
+  <div class="accordion-item bg-dark text-white border-secondary">
+    <h2 class="accordion-header">
+      <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+        کیا یہ کورس ابتدائی افراد کے لیے موزوں ہے؟
+      </button>
+    </h2>
+    <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        جی ہاں، یہ ان لوگوں کے لیے ڈیزائن کیا گیا ہے جنہیں پہلے سے کوئی تجربہ نہیں۔
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="accordion-item bg-dark text-white border-secondary">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
+        کیا مجھے ٹولز اور مواد ملے گا؟
+      </button>
+    </h2>
+    <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+      <div class="accordion-body">
+        جی ہاں! ٹولز، ویڈیوز، اور نوٹسز والٹ سیکشن میں شامل ہیں۔
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8">
+      <div class="card bg-black text-success border border-success shadow-lg hacker-glow">
+        <div class="card-body p-4">
+          <h3 class="text-center mb-4">داخلہ فارم</h3>
+          <form action="https://formspree.io/f/your-id" method="POST">
+            <div class="mb-3">
+              <input type="text" name="name" class="form-control hacker-input" placeholder="🔹 آپ کا نام / Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control hacker-input" placeholder="🔹 آپ کا ای میل / Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea name="message" class="form-control hacker-input" rows="5" placeholder="🔹 اپنا پیغام / Your Message" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-outline-success px-5 py-2 hacker-btn">💾 پیغام بھیجیں / Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<hr>
+<footer>    
+  <a href="https://www.instagram.com/abdullah.net.io" target="_blank">
+    <img src="images/insta.jpeg" alt="انسٹاگرام" class="social-logo">
+  </a>
+  <a href="https://wa.me/+923353393213" target="_blank">
+    <img src="images/whatsapp.avif" alt="واٹس ایپ" class="social-logo">
+  </a>
+  <a href="soon.html" target="_blank">
+    <img src="images/facebook.webp" alt="فیس بک" class="social-logo">
+  </a>
+</footer>
+
+<div class="foter">
+  <a href="terms.html"> سروس کی شرائط </a> |
+  <a href="privacy.html"> رازداری کی پالیسی </a>
+
+  <footer class="text-white text-center">
+    &copy; <span id="year"></span> Abdullah.net
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</div>
+<br>
+
+
+  </body>
+</html>
